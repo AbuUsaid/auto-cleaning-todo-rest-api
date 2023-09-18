@@ -18,4 +18,12 @@ router.post('/', (req, res) => {
   res.send(`Todo with the title " ${todo.title} " added to the database!`);
 });
 
+router.get('/:id', (req, res) => {
+  const { id } = req.params;
+
+  const foundTodo = todos.find((todo) => todo.id === id);
+
+  res.send(foundTodo);
+});
+
 export default router;
