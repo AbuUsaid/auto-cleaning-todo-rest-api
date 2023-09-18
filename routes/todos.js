@@ -1,19 +1,9 @@
 import express from 'express';
+import { v4 as uuidv4 } from 'uuid';
 
 const router = express.Router(); //initialising router, just as we used app in index.js
 
-const todos = [
-  {
-    title: 'Finish report',
-    description: 'Complete the project report.',
-    completed: false,
-  },
-  {
-    title: 'Grocery shopping',
-    description: 'Buy groceries for the week.',
-    completed: true,
-  },
-];
+const todos = [];
 
 //all routes in here are starting with /todos
 router.get('/', (req, res) => {
@@ -23,7 +13,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const todo = req.body;
 
-  todos.push(todo);
+  todos.push({ ...todo, id: uuidv4() });
 
   res.send(`Todo with the title " ${todo.title} " added to the database!`);
 });
