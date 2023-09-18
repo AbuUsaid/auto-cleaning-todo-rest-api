@@ -1,0 +1,18 @@
+
+[
+    {
+        "title": "Finish report",
+        "description": "Complete the project report.",
+        "completed": false
+      },
+      {
+        "title": "Grocery shopping",
+        "description": "Buy groceries for the week.",
+        "completed": true
+      },
+      {
+        "title": "Dentist appointment",
+        "description": "Visit the dentist for a checkup.",
+        "completed": false
+      },
+]
