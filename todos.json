@@ -6,9 +6,15 @@
     "id": "02c16138-9dc9-4ce0-b381-552646719554"
   },
   {
-    "title": "Grocery shopping",
-    "description": "Buy groceries for the week.",
-    "completed": true,
-    "id": "78db1c82-b658-4b6a-b814-c4c3467b19a8"
+    "title": "Read book",
+    "description": "Read 'The Catcher in the Rye'.",
+    "completed": false,
+    "id": "b5c28111-0f54-47eb-adcc-c536760ac438"
+  },
+  {
+    "title": "Cook Food",
+    "description": "Prepare maggi in 2 minutes.",
+    "completed": false,
+    "id": "3110fe5e-324c-49bf-8b13-03247b62a37e"
   }
 ]
