@@ -25,7 +25,7 @@ const writeTodosToFile = async (todos) => {
   }
 };
 
-let todos = readTodosFromFile();
+let todos = await readTodosFromFile();
 
 //all routes in here are starting with /todos
 router.get('/', (req, res) => {
@@ -66,7 +66,7 @@ router.patch('/:id', (req, res) => {
 
   if (title) todo.title = title;
   if (description) todo.description = description;
-  if (completed) todo.completed = completed;
+  if (completed !== undefined) todo.completed = completed;
 
   writeTodosToFile(todos); //Write updated todos to the JSON file
   res.send(`Todo with the id "${id}" has been updated`);

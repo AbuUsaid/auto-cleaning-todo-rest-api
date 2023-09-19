@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Bike Wash",
+    "description": "Visit the washing center.",
+    "completed": false,
+    "id": "02c16138-9dc9-4ce0-b381-552646719554"
+  },
+  {
+    "title": "Grocery shopping",
+    "description": "Buy groceries for the week.",
+    "completed": true,
+    "id": "78db1c82-b658-4b6a-b814-c4c3467b19a8"
+  }
+]
