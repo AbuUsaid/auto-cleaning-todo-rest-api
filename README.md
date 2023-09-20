@@ -57,6 +57,7 @@ Scheduled Task (Cron Job)
 A scheduled task is set to run every 5 minutes.
 It removes tasks from the list where `"completed"` is set to `true` in the `todos.json` file.
 This is done to keep the list tidy by automatically removing completed tasks.
+
 ![img_related_to_cron](./cron.png)
 
 
