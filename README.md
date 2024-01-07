@@ -1,4 +1,4 @@
-# Simple To-Do API
+# Auto-cleaning-todo-rest-api
 This is a simple RESTful API for managing a to-do list. It allows you to create, read, update, and delete tasks. Additionally, it features a scheduled task using `node-cron` to automatically remove completed tasks from the list after 5 minutes.
 ![img_showing_request)](./restapi_todo.png)
 ## Getting Started
